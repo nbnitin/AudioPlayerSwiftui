@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4511D7D52A2A3827007D009C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511D7D22A2A3827007D009C /* NetworkManager.swift */; };
+		4511D7D62A2A3827007D009C /* AudioDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511D7D32A2A3827007D009C /* AudioDataModel.swift */; };
+		4511D7D72A2A3827007D009C /* AudioData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4511D7D42A2A3827007D009C /* AudioData.json */; };
+		45194B592A1C902E00933180 /* AudioListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45194B582A1C902E00933180 /* AudioListView.swift */; };
+		45194B5D2A1CB5FB00933180 /* EqualizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45194B5C2A1CB5FB00933180 /* EqualizerView.swift */; };
 		4521DFC22A1BB71B0079ED6A /* AudioPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4521DFC12A1BB71B0079ED6A /* AudioPlayerApp.swift */; };
 		4521DFC42A1BB71B0079ED6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4521DFC32A1BB71B0079ED6A /* ContentView.swift */; };
 		4521DFC62A1BB71C0079ED6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4521DFC52A1BB71C0079ED6A /* Assets.xcassets */; };
 		4521DFC92A1BB71C0079ED6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4521DFC82A1BB71C0079ED6A /* Preview Assets.xcassets */; };
+		45870BE32A29B573009F1C8D /* PlayerViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45870BE22A29B573009F1C8D /* PlayerViewMain.swift */; };
+		45D10EEB2A247D3100426E9B /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D10EEA2A247D3100426E9B /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4511D7D22A2A3827007D009C /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4511D7D32A2A3827007D009C /* AudioDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioDataModel.swift; sourceTree = "<group>"; };
+		4511D7D42A2A3827007D009C /* AudioData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AudioData.json; sourceTree = "<group>"; };
+		45194B582A1C902E00933180 /* AudioListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioListView.swift; sourceTree = "<group>"; };
+		45194B5C2A1CB5FB00933180 /* EqualizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualizerView.swift; sourceTree = "<group>"; };
 		4521DFBE2A1BB71B0079ED6A /* AudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4521DFC12A1BB71B0079ED6A /* AudioPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerApp.swift; sourceTree = "<group>"; };
 		4521DFC32A1BB71B0079ED6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4521DFC52A1BB71C0079ED6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4521DFC82A1BB71C0079ED6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45870BE22A29B573009F1C8D /* PlayerViewMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewMain.swift; sourceTree = "<group>"; };
+		45D10EEA2A247D3100426E9B /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45194B5A2A1CB5CC00933180 /* CustomVIew */ = {
+			isa = PBXGroup;
+			children = (
+				45194B582A1C902E00933180 /* AudioListView.swift */,
+				45D10EEA2A247D3100426E9B /* PlayerView.swift */,
+			);
+			path = CustomVIew;
+			sourceTree = "<group>";
+		};
+		45194B5B2A1CB5D700933180 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				4521DFC32A1BB71B0079ED6A /* ContentView.swift */,
+				45194B5C2A1CB5FB00933180 /* EqualizerView.swift */,
+				45870BE22A29B573009F1C8D /* PlayerViewMain.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
 		4521DFB52A1BB71B0079ED6A = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +84,14 @@
 		4521DFC02A1BB71B0079ED6A /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				4511D7D42A2A3827007D009C /* AudioData.json */,
+				4511D7D32A2A3827007D009C /* AudioDataModel.swift */,
+				4511D7D22A2A3827007D009C /* NetworkManager.swift */,
 				4521DFC12A1BB71B0079ED6A /* AudioPlayerApp.swift */,
-				4521DFC32A1BB71B0079ED6A /* ContentView.swift */,
+				45194B5B2A1CB5D700933180 /* VCs */,
 				4521DFC52A1BB71C0079ED6A /* Assets.xcassets */,
 				4521DFC72A1BB71C0079ED6A /* Preview Content */,
+				45194B5A2A1CB5CC00933180 /* CustomVIew */,
 			);
 			path = AudioPlayer;
 			sourceTree = "<group>";
@@ -126,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4521DFC92A1BB71C0079ED6A /* Preview Assets.xcassets in Resources */,
+				4511D7D72A2A3827007D009C /* AudioData.json in Resources */,
 				4521DFC62A1BB71C0079ED6A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +175,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45194B592A1C902E00933180 /* AudioListView.swift in Sources */,
 				4521DFC42A1BB71B0079ED6A /* ContentView.swift in Sources */,
 				4521DFC22A1BB71B0079ED6A /* AudioPlayerApp.swift in Sources */,
+				4511D7D52A2A3827007D009C /* NetworkManager.swift in Sources */,
+				4511D7D62A2A3827007D009C /* AudioDataModel.swift in Sources */,
+				45870BE32A29B573009F1C8D /* PlayerViewMain.swift in Sources */,
+				45D10EEB2A247D3100426E9B /* PlayerView.swift in Sources */,
+				45194B5D2A1CB5FB00933180 /* EqualizerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

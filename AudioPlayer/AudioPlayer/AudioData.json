@@ -1,0 +1,74 @@
+{
+    "data": [{
+            "id" : 1,
+            "audioTitle": "SoundHelix Song 1",
+            "audioImage": "https://fastly.picsum.photos/id/24/4855/1803.jpg?hmac=ICVhP1pUXDLXaTkgwDJinSUS59UWalMxf4SOIWb9Ui4",
+            "mp3URL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+            "duration": "6:12"
+        },
+        {
+            "id" : 2,
+            "audioTitle": "SoundHelix Song 2",
+            "audioImage": "https://fastly.picsum.photos/id/25/4855/1803.jpg?hmac=ICVhP1pUXDLXaTkgwDJinSUS59UWalMxf4SOIWb9Ui4",
+            "mp3URL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+            "duration": "7:05"
+        },
+        {
+            "id" : 3,
+            "audioTitle": "SoundHelix Song 3",
+            "audioImage": "https://fastly.picsum.photos/id/56/2880/1920.jpg?hmac=BIplhYgNZ9bsjPXYhD0xx6M1yPgmg4HtthKkCeJp6Fk",
+            "mp3URL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+            "duration": "5:44"
+        },
+        {
+            "id" : 4,
+            "audioTitle": "SoundHelix Song 4",
+            "audioImage": "https://fastly.picsum.photos/id/53/1280/1280.jpg?hmac=QP5opo-oENp5iFwsSiWH8azQuR0w0bwps6MT6yvhKwA",
+            "mp3URL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+            "duration": "5:02"
+        },
+        {
+            "id" : 5,
+            "audioTitle": "SoundHelix Song 5",
+            "audioImage": "https://fastly.picsum.photos/id/55/4608/3072.jpg?hmac=ahGhylwdN52ULB37deeMZX6T_G7NiERtoPhwydMvUKQ",
+            "mp3URL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+            "duration": "5:53"
+        },
+        {
+            "id" : 6,
+            "audioTitle": "SoundHelix Song 6",
+            "audioImage": "https://fastly.picsum.photos/id/79/2000/3011.jpg?hmac=TQsXWj0kLBLRXbSAh2Pygog1-cOefqpjEoKyl0uD3tg",
+            "mp3URL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+            "duration": "4:39"
+        },
+        {
+            "id" : 7,
+            "audioTitle": "SoundHelix Song 7",
+            "audioImage": "https://fastly.picsum.photos/id/83/2560/1920.jpg?hmac=LFdAxfpbYKs0hZr0LhHVWyqXarWGg7FtM8pIzJPBc0w",
+            "mp3URL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+            "duration": "7:00"
+        },
+        {
+            "id" : 8,
+            "audioTitle": "SoundHelix Song 8",
+            "audioImage": "https://fastly.picsum.photos/id/77/1631/1102.jpg?hmac=sg0ArFCRjP1wlUg8vszg5RFfGiXZJkWEtqLLCRraeBw",
+            "mp3URL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+            "duration": "5:25"
+        },
+        {
+            "id" : 9,
+            "audioTitle": "SoundHelix Song 9",
+            "audioImage": "https://fastly.picsum.photos/id/76/4912/3264.jpg?hmac=VkFcSa2Rbv0R0ndYnz_FAmw02ON1pPVjuF_iVKbiiV8",
+            "mp3URL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+            "duration": "6:29"
+        },
+        {
+            "id" : 10,
+            "audioTitle": "SoundHelix Song 10",
+            "audioImage": "https://fastly.picsum.photos/id/70/3011/2000.jpg?hmac=-npCfe1kpGYW7HcBlZvrEZ9Qb_EdiGLbDxE26amgotM",
+            "mp3URL": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+            "duration": "8:47"
+        }
+
+    ]
+}
